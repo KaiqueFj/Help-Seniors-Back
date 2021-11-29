@@ -39,4 +39,4 @@ $ npm install
 # Launch the application
 $ adonis serve --dev
 ```
-"# Back-End Health in Hands" 
+**That´s all folks ;)**
