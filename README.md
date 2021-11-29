@@ -1,32 +1,42 @@
-# Adonis fullstack application
+# ☀️ Back-end of Health in hands  ☁️
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
+# 📕 About this project 
 
-## Setup
+#### This is a project that was requested as an project of the Systems Analysis and Development course at Etec Taboão da Serra, with the intention to help elders to take care of their daily health
 
-Use the adonis command to install the blueprint
+This application has the features of:
+ - Create the actions that will be used in front-end
+ - Create the tables and structure to be used in the database 
+ - Create Routes to be consumed by the front-end and
+ - Use middleware to make everything secure while the use of the application
+ - Use of bcrypt to keep the user information secure
 
-```bash
-adonis new yardstick
+
+# Technologies used
+ - NodeJs
+ - Typescript
+ - Adonisjs 
+
+
+
+# 💻 How to install?
+
+
 ```
+# Clone the repository
+$ git clone https://github.com/KaiqueFj/Help-Seniors-Back.git
 
-or manually clone the repo and then run `npm install`.
+# Enter the repository
+$ cd Back-Help
 
+# install dependencies
 
-### Migrations
+$ yarn add
+# or
+$ npm install
 
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
+# Launch the application
+$ adonis serve --dev
 ```
-"# Help-Seniors-Back" 
+"# Back-End Health in Hands" 
